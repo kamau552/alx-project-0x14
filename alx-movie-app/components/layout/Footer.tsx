@@ -19,13 +19,13 @@ const Footer: React.FC = () => {
         </nav>
 
         <div className="flex space-x-4">
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#E2D609]">
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#E2D609]" title="Follow us on Twitter">
             <FontAwesomeIcon icon={faTwitter} size="lg" />
           </a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#E2D609]">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#E2D609]" title="Follow us on Facebook">
             <FontAwesomeIcon icon={faFacebook} size="lg" />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#E2D609]">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#E2D609]" title="Follow us on Instagram">
             <FontAwesomeIcon icon={faInstagram} size="lg" />
           </a>
         </div>
